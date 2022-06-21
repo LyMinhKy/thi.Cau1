@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#2196F3"
+        android:text="My First App"
+        android:textSize="35dp"/>
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Enter the massage" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+</LinearLayout>
